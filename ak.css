@@ -1,0 +1,205 @@
+body{
+    padding: 0px;
+    margin: 0px;
+}
+
+/* logo and img  */
+.navbare .logo img{
+    height: 68px;
+    width: 76px;
+    padding-left: 10px;
+    padding-top: 2px;
+  
+
+}
+
+/* Navbare styling */
+
+.navbare{
+    display: flex;
+    position: relative;
+    top: 0px;
+
+}
+
+/* Navbare ul style */
+.navbare ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+/* avbare ul li style */
+.navbare ul li{
+list-style: none;
+padding: 16px 36px;
+
+
+}
+
+.navbare ul li a{
+    text-decoration: none;
+    color: white;
+    font-size: 1.3rem;
+    font-family: sans-serif ;
+}
+
+.navbare ul li a:hover{
+    /* background-color: black; */
+    border-radius: 15px;
+    color: black;
+}
+
+.navbare::before{
+    content: "";
+    background-color: black;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    height: 83%;
+    width: 100%;
+    z-index: -1;
+    opacity:.4;
+
+}
+
+#home{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* position:absolute; */
+
+  
+    height: 555px;
+    padding:3px 200px;
+}
+
+#home::before{
+    content: "";
+    background: url(bg1.jpg) no-repeat center center / cover ;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    height: 650px;
+    width: 100%;
+    z-index: -4;
+    opacity: 1.7;
+}
+
+#home h1{
+    color: white;
+    font-size:3rem;
+    margin: 15px;
+}
+
+#home p {
+    color: white;
+    margin-top: -7px;
+}
+
+#head{
+    text-align: center;
+    font-size: 3rem;
+}
+
+.service{
+    display: flex;
+}
+
+.service .box{
+    height: 520px;
+    width: 397px;
+    border: 5px solid brown;
+    margin: 20px;
+    border-radius: 20px;
+}
+
+.box img{
+    height: 259px;
+    width: 300px;
+    display: block;
+    margin:  25px auto;
+
+}
+
+.box .hh{
+    text-align: center;
+    font-size: 35px;
+}
+
+.box .pp{
+    text-align: center;
+}
+
+/* clients side */
+
+.clients-caintner{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.clients-caintner img{
+    height: 160px;
+    width: 160px;
+}
+
+.clients-caintner::before{
+    content: "";
+    position: absolute;
+    height: 200px;
+    width: 100%;
+    opacity: .59;
+    background: url(bg.jpg);
+    z-index: -3;
+    top: 1450px;
+    left: 0px;
+}
+
+.ourdt{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: sticky;
+
+}
+
+.ourdt input{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 600px;
+    box-sizing: 12px;
+    border-top: none;
+    border-left: none;
+    border-left: none;
+    border-bottom-color: aqua;
+    border-radius: 12px;
+
+}
+
+
+.ourdt input:hover{
+    border-bottom: 3px solid black;
+    border-left: none;
+    border-top: none;
+    border-left: none;
+ 
+}
+
+.ourdt::before{
+    content: "";
+    background: url( contact.jpg ) no-repeat center center / cover ;
+
+    position: absolute;
+    height: 200px;
+    width: 100%;
+    opacity: .59;
+    z-index: -3;
+    top: -10px;
+    left: 0px;
+}
+
+    
